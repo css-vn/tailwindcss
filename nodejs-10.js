@@ -1,7 +1,7 @@
 const readline = require('readline');
 const https = require('https');
 
-const key = 'AIzaSyAhdbWAznDA-KqFFmDAswR4X9QmWS0xuP8';
+const key = 'AIzaSyAGf02wJ0POfywTM13L12m-xlDY_TaPvmk';
 const model = 'gemini-2.0-flash';
 
 const rl = readline.createInterface({
