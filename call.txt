@@ -1,0 +1,11 @@
+askGemini(`
+import { Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View>
+      <Text>Hello</Text>
+    </View>
+  );
+}
+`, "Sửa lại để giao diện đếm từ 1 đến 10");
