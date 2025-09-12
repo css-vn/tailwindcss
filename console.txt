@@ -27,7 +27,7 @@ Hãy sửa theo yêu cầu sau và CHỈ trả về code chuẩn format (không 
     const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text || "Không có phản hồi.";
 
     // In ra code giữ nguyên format
-    console.log("===== Gemini Code =====\n");
+    console.log("ERR\n");
     console.log(reply);
   } catch (err) {
     console.error("Gemini: Lỗi hoặc key sai.\nChi tiết:", err);
