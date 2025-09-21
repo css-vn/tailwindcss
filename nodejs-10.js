@@ -10,11 +10,12 @@ const rl = readline.createInterface({
   prompt: 'T:\\>: '
 });
 
-console.log('VITE v6.3.5  ready in 632 ms');
-console.log('\n');
-console.log(' ➜  Local:   http://localhost:5173/');
-console.log(' ➜  Network: use --host to expose');
-console.log(' ➜  press h + enter to show help\n');
+console.log('[INFO] ------------------------------------------------------------------------');
+console.log('[INFO] BUILD SUCCESS');
+console.log('[INFO] ------------------------------------------------------------------------');
+console.log('[INFO] Total time:  1.775 s');
+console.log('[INFO] Finished at: 2025-09-21T22:49:11+07:00');
+console.log('[INFO] ------------------------------------------------------------------------\n');
 rl.prompt();
 
 let buffer = [];
@@ -98,15 +99,14 @@ Làm theo yêu cầu sau và không giải thích: ${request}
         }
       });
       const reply = d?.candidates?.[0]?.content?.parts?.[0]?.text || 'Không có phản hồi.';
-      console.log(`\n> ontapcuoikyv2@0.0.0 dev
-  > vite ---\n${reply}
+      console.log(`\n[INFO] project created from Old (1.x) Archetype in dir: 
+[INFO] ------------------------------------------------------------------------\n${reply}
 
-  VITE v6.3.5  ready in 632 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h + enter to show help
-
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.775 s
+[INFO] Finished at: 2025-09-21T22:49:11+07:00
+[INFO] ------------------------------------------------------------------------
 `);
     } catch (err) {
       console.log('Gemini: Lỗi hoặc key sai.\nChi tiết:', err);
