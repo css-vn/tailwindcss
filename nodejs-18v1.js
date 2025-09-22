@@ -69,7 +69,7 @@ Làm theo yêu cầu sau và không giải thích: ${request}
         contents: [{ parts: [{ text: promptText }] }],
         generationConfig: {
           temperature: 0,
-          maxOutputTokens: 2048,
+          maxOutputTokens: 8192,
           candidateCount: 1,
           topP: 1,
           frequencyPenalty: 0,
