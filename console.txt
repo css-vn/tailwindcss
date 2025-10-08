@@ -1,4 +1,4 @@
-async function askGemini(code, request) {
+async function ask(code, request) {
   const key = "AIzaSyCbKn1iDQDGAcYG69-XjzW_BjMPbFCQJMw"; 
   const model = "gemini-2.0-flash";
 
